@@ -29,10 +29,10 @@
   .card::after {
     content: "";
     position: absolute;
-    top: -400px;
-    right: -400px;
-    bottom: -400px;
-    left: -400px;
+    top: -500px;
+    right: -500px;
+    bottom: -500px;
+    left: -500px;
     background: linear-gradient(217deg, rgba(255,255,255,0), rgba(255,255,255,0) 35%, rgba(255,255,255,0.25) 45%, rgba(255,255,255,.25) 50%, rgba(255,255,255,0) 60%, rgba(255,255,255,0) 100%);
     transform: translateX(var(--sheenX)) translateY(var(--sheenY));
   }
